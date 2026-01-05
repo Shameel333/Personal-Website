@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Webpage</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap"
         rel="stylesheet">
@@ -18,9 +19,9 @@
             <p style="margin-bottom: 40px; max-width: 30em;">I design and develop fast, responsive, and user-friendly
                 websites for
                 startups, small businesses, and personal brands.</p>
-            <a class="btn" href="#services">Get Started</a>
+            <a class="btn" href="#">Get Started</a>
         </div>
-        <img src="src="images/website.jpg">
+        <img src="/images/website.jpg" alt="Delicious Food Image">
 
     </section>
     <section class="about" id="about">
@@ -60,7 +61,7 @@
         </div>
     </section>
     <section class="services" id="services">
-        <h2>Plans</h2>
+        <h2>Services</h2>
         <div class="plans">
             <div class="plan1">
                 <h3>Starter Plan</h3>
@@ -75,7 +76,7 @@
                     <li><ion-icon name="checkmark-circle-outline"></ion-icon> Easy-to-navigate layout</li>
                     <li><ion-icon name="checkmark-circle-outline"></ion-icon> WhatsApp Integrated Contact section</li>
                 </ul>
-                <button onclick="location.href='#contact'">Learn More <ion-icon name="arrow-forward-outline"
+                <button>Learn More <ion-icon name="arrow-forward-outline"
                         style="margin-left: .5em;"></ion-icon></button>
             </div>
             <div class="plan1">
@@ -91,7 +92,7 @@
                     <li><ion-icon name="checkmark-circle-outline"></ion-icon> Fast performance optimization</li>
                     <li><ion-icon name="checkmark-circle-outline"></ion-icon> .com or .in Domain</li>
                 </ul>
-                <button onclick="location.href='#contact'">Learn More <ion-icon name="arrow-forward-outline"
+                <button>Learn More <ion-icon name="arrow-forward-outline"
                         style="margin-left: .5em;"></ion-icon></button>
             </div>
             <div class="plan1">
@@ -107,7 +108,7 @@
                     <li><ion-icon name="checkmark-circle-outline"></ion-icon> SEO-ready structure</li>
                     <li><ion-icon name="checkmark-circle-outline"></ion-icon> Priority support</li>
                 </ul>
-                <button onclick="location.href='#contact'">Learn More <ion-icon name="arrow-forward-outline"
+                <button>Learn More <ion-icon name="arrow-forward-outline"
                         style="margin-left: .5em;"></ion-icon></button>
             </div>
             <div class="plan1">
@@ -123,7 +124,7 @@
                     <li><ion-icon name="checkmark-circle-outline"></ion-icon> Easy-to-navigate layout</li>
                     <li><ion-icon name="checkmark-circle-outline"></ion-icon> WhatsApp Integrated Contact section</li>
                 </ul>
-                <button onclick="location.href='#contact'">Learn More <ion-icon name="arrow-forward-outline"
+                <button>Learn More <ion-icon name="arrow-forward-outline"
                         style="margin-left: .5em;"></ion-icon></button>
             </div>
 
@@ -179,7 +180,7 @@
     <section class="cta-section">
         <h2>Ready to Elevate Your Online Presence?</h2>
         <p>Contact me today to discuss your project and get a free quote!</p>
-        <a class="btn" href="#contact">Get A Free Quote</a>
+        <a class="btn" href="#">Get A Free Quote</a>
     </section>
     <section class="contact" id="contact">
         <h2 style="text-align: center; padding: 2em 2em 1em 2em;">Contact</h2>
@@ -227,15 +228,15 @@
             </div>
             <div class="other-links">
                 <h3 style="color: #fff; margin-bottom: 1.5em;">Help</h3>
-                <a href="">Report</a>
-                <a href="">Ask a Question</a>
-                <a href="">Suggestions</a>
-                <a href=""></a>
+                <a href="#">Report</a>
+                <a href="#">Ask a Question</a>
+                <a href="#">Suggestions</a>
+                <a href="#"></a>
             </div>
             <div class="contact-links">
                 <h3 style="color: #fff; margin-bottom: 1.5em;">Address</h3>
-                <a href="tel:7511159923">+91 7511159923</a>
-                <a href="mailto:mymail@gmail.com?subject=Website%20Inquiry&body=Hi%2C%20I%E2%80%99m%20interested%20in%20building%20a%20high-engaging%20website%20and%20improving%20my%20online%20presence.">mymail@gmail.com</a>
+                <a href="#">+91 7511159923</a>
+                <a href="#">mymail@gmail.com</a>
                 <a href="#">Kozhikode, kerala</a>
                 <a href="#"></a>
             </div>
@@ -264,8 +265,7 @@
 
         background-color: rgb(255, 255, 255);
         scroll-behavior: smooth;
-        height: 200vh;
-        overflow-x: hidden;
+
         font-family: 'Zalando Sans SemiExpanded', sans-serif;
         --Primary: #0F172A;
         --Secondary: #1E293B;
@@ -284,7 +284,7 @@
     }
 
     .hero {
-        min-height: 100vh;
+        min-height: 60em;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -333,7 +333,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        height: 90vh;
+        height: 50em;
         color: var(--Secondary);
         padding: 2em;
     }
@@ -442,7 +442,7 @@
     }
 
     .process {
-        height: 100em;
+        height: 75em;
         background-color: #fff;
     }
 
@@ -630,7 +630,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding:2em;
 
     }
 
@@ -694,7 +693,8 @@
         }
 
         .services {
-            height: 290vh;
+            height: 100%;
+            padding-bottom:2em ;
         }
 
         .plans {
@@ -707,7 +707,7 @@
             border-radius: 10px;
             position: relative;
             top: 7em;
-            height: 53em;
+            height: 100%;
         }
 
         .line-fill {
@@ -739,6 +739,7 @@
         .links {
             width: 30em;
             padding: 2em;
+            margin: 2em;
         }
 
     }
@@ -788,8 +789,8 @@
 
         window.open(url, "_blank");
     }
-
 </script>
+
 
 
 
